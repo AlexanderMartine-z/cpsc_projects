@@ -2,10 +2,7 @@
 #define CPSC131_PALINDROMEDETECTOR_MYQUEUE_HPP
 
 
-/**
- * You do not need to edit this file,
- * though you may add helper methods if you wish.
- */
+
 
 
 /// Starter includes
