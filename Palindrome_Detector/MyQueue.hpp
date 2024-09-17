@@ -2,9 +2,7 @@
 #define CPSC131_MYQUEUE_HPP
 
 
-/**
- * TODO: Complete this class
- */
+
 
 
 //
@@ -22,12 +20,10 @@ namespace CPSC131
 		//
 		public:
 			
-			///	 YOUR WELCOME
+		
 			MyQueue() {}
 			
 			/**
-			 * enqueue()
-			 * 
 			 * Takes an item and puts it into the queue
 			 */
 			void enqueue(const T& item)
@@ -94,10 +90,6 @@ namespace CPSC131
 		//
 		private:
 			
-			/**
-			 * Do not change these privates.
-			 * You may add additional privates below this block, if you wish.
-			 */
 			std::list<T> list;
 			size_t size_ = 0;
 			/******************************/

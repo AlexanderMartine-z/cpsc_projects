@@ -2,9 +2,6 @@
 #define CPSC131_MYSTACK_HPP
 
 
-/**
- * TODO: Complete this class
- */
 
 
 //
@@ -15,7 +12,6 @@
 //
 namespace CPSC131
 {
-	///	Complete your custom MyStack using an std::forward_list under the hood.
 	template <class T>
 	class MyStack
 	{
@@ -95,10 +91,7 @@ namespace CPSC131
 		//
 		private:
 			
-			/**
-			 * Do not change these privates.
-			 * You may add additional privates below this block, if you wish.
-			 */
+
 			std::forward_list<T> list;
 			size_t size_ = 0;
 			/******************************/

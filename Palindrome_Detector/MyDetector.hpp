@@ -5,7 +5,6 @@
 
 
 
-/// Starter includes
 #include "MyQueue.hpp"
 #include "MyStack.hpp"
 //
@@ -21,7 +20,7 @@ namespace CPSC131::PalindromeDetector
 		//
 		public:
 			
-			///	Your welcome
+			
 			MyDetector();
 			
 			/**
@@ -35,7 +34,7 @@ namespace CPSC131::PalindromeDetector
 		//
 		private:
 			
-			//	Do not add Stack/Queue as member variable; It will make your class non-thread-safe.
+			
 	};
 }
 
