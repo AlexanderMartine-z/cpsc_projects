@@ -1,7 +1,7 @@
-![][image1]  
-**EGCP 280- Microcontrollers** 
 
-**LAB \#8 Report** 
+EGCP 280- Microcontrollers
+
+
 
 **Name: Alexander Martinez** 
 
