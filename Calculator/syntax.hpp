@@ -16,8 +16,9 @@ public:
 
         BASICFUNC() {};
 
-        void rmvWhiteSpace(string line) {
-            line.erase(remove(line.begin(), line.end(), ' '), line.end());
+        string rmvWhiteSpace(string line) {
+          line.erase(remove(line.begin(), line.end(), ' '), line.end());
+          return line;
         }
 
         void invalid() 
@@ -50,7 +51,8 @@ public:
         }
         
         void isSyntax(string line) {
-                rmvWhiteSpace(line);
+                line = rmvWhiteSpace(line);
+                
                 int x = 0;
                 int y = 0;
 
