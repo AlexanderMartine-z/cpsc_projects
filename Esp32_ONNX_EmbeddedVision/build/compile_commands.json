@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/JuiceBox/projects/cv_proj01/build",
+  "command": "/usr/bin/c++  -I/home/JuiceBox/onnxruntime/include/onnxruntime/core/session -I/home/JuiceBox/onnxruntime/build/Linux/Release/_deps/onnx-build -I/opt/cuda/include -I/home/JuiceBox/onnxruntime/include -isystem /usr/local/include/opencv4 -std=c++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/JuiceBox/projects/cv_proj01/src/main.cpp",
+  "file": "/home/JuiceBox/projects/cv_proj01/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+}
+]
